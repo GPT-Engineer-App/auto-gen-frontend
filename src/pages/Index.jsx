@@ -16,6 +16,9 @@ const Index = () => {
         </Text>
 
         <HStack spacing={4}>
+          <Button as={Link} href="/autogen-interface" colorScheme="purple" variant="solid">
+            AutoGen Interface
+          </Button>
           <Button leftIcon={<Icon as={FaGithub} />} colorScheme="teal" variant="solid">
             <Link href="https://github.com/microsoft/AutoGen" isExternal>
               GitHub Repository <Icon as={FaExternalLinkAlt} mx="2px" />
